@@ -29,24 +29,24 @@ function animate() {
   tl1.to(['#terms'], 1,{ autoAlpha: 1 }, '-=1');
   tl1.to(['#txt1'], 1,{ autoAlpha: 0, y: '+=100' }, '+=3');
   tl1.to(['#txt1-mask'], 1,{ y: '-=50' }, '-=1');
-  // tl1.to(['#terms'], 0.5,{ autoAlpha: 0 }, '-=1');
-  // tl1.to(['#txt1-mask'], 0,{ autoAlpha: 0 }, '+=0');
-  // tl1.to(['#image2'], 1,{ autoAlpha: 1, y: '+=250' }, '-=0.75');
-  // tl1.to(['#txt2-mask'], 0,{ autoAlpha: 1 }, '+=0');
+  tl1.to(['#terms'], 0.5,{ autoAlpha: 0 }, '-=1');
+  tl1.to(['#txt1-mask'], 0,{ autoAlpha: 0 }, '+=0');
+  tl1.to(['#image2'], 1,{ autoAlpha: 1, y: '+=250' }, '-=0.75');
+  tl1.to(['#txt2-mask'], 0,{ autoAlpha: 1 }, '+=0');
 
 
-  // tl1.from(['#txt2'], 1,{ autoAlpha: 0, y: '+=100' }, '+=0');
-  // tl1.to(['#terms2'], 1,{ autoAlpha: 1 }, '-=1');
-  // tl1.to(['#txt2'], 1,{ autoAlpha: 0, y: '+=100' }, '+=3');
-  // tl1.to(['#txt2-mask'], 1,{ y: '-=50' }, '-=1');
-  // tl1.to(['#terms2'], 0.5,{ autoAlpha: 0 }, '-=1');
-  // tl1.to(['#txt2-mask'], 0,{ autoAlpha: 0 }, '+=0');
-  // tl1.to(['#image3'], 1,{ autoAlpha: 1, y: '+=250' }, '-=0.75');
-  // tl1.to(['#txt3-mask', '#txt4-mask', '#cta-mask'], 0,{ autoAlpha: 1 }, '+=0');
+  tl1.from(['#txt2'], 1,{ autoAlpha: 0, y: '+=100' }, '+=0');
+  tl1.to(['#terms2'], 1,{ autoAlpha: 1 }, '-=1');
+  tl1.to(['#txt2'], 1,{ autoAlpha: 0, y: '+=100' }, '+=3');
+  tl1.to(['#txt2-mask'], 1,{ y: '-=50' }, '-=1');
+  tl1.to(['#terms2'], 0.5,{ autoAlpha: 0 }, '-=1');
+  tl1.to(['#txt2-mask'], 0,{ autoAlpha: 0 }, '+=0');
+  tl1.to(['#image3'], 1,{ autoAlpha: 1, y: '+=250' }, '-=0.75');
+  tl1.to(['#txt3-mask', '#txt4-mask', '#cta-mask'], 0,{ autoAlpha: 1 }, '+=0');
 
 
-  // tl1.from(['#txt3', '#txt4'], 1,{ autoAlpha: 0, y: '+=100' }, '+=0');
-  // tl1.from('#cta', 1,{ autoAlpha: 0, y: '+=100' }, '-=0.75');
+  tl1.from(['#txt3', '#txt4'], 1,{ autoAlpha: 0, y: '+=100' }, '+=0');
+  tl1.from('#cta', 1,{ autoAlpha: 0, y: '+=100' }, '-=0.75');
 }
 
 function endTime() {
