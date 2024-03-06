@@ -1,0 +1,198 @@
+html, body {
+  width:300px;
+  height:600px;
+  margin: 0;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:600px;
+  background-color:#e03c31;
+  overflow:hidden;
+}
+
+#imageCont {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#image1,
+#image2,
+#image3 {
+  position:absolute;
+  left: 0px;
+  top: 75px;
+  width: 300px;
+  height:auto;
+  transform-origin: 50% 50%;
+  z-index: 80;
+}
+
+#image2,
+#image3 {
+  top: -525px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.full-width-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: auto;
+}
+
+@font-face {
+  font-family: "SeatBlack";
+  src: url("./subset-SEATBCN-Black.woff");
+}
+
+@font-face {
+  font-family: "SeatBold";
+  src: url("./subset-SEATBCN-Bold.woff");
+}
+
+@font-face {
+  font-family: "SeatRegular";
+  src: url("./subset-SEATBCN-Regular.woff");
+}
+
+sup {
+  font-size: 50%;
+}
+
+.txt-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e03c31;
+  width: 300px;
+  height: 600px;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  -webkit-font-smoothing: antialiased; 	       
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#txt1 {
+  left:20px;
+  top: 424px;
+  font-size: 19px;
+  line-height: 33px;
+  font-family: "SeatBlack";
+  letter-spacing: 0.005em;
+  font-kerning: none;
+}
+
+#txt1-mask {
+  top: 600px;
+}
+
+#terms {
+  font-family: "SeatRegular";
+  font-size: 9px;
+  line-height: 11px;
+  left: 20px;
+  top: 546px;
+}
+
+#terms2 {
+  font-family: "SeatRegular";
+  font-size: 9px;
+  line-height: 11px;
+  left: 20px;
+  top: 565px;
+}
+
+#txt2 {
+  left:20px;
+  top: 424px;
+  font-size: 25px;
+  line-height: 27px;
+  font-family: "SeatBlack";
+  letter-spacing: 0.005em;
+  font-kerning: none;
+}
+
+#txt2-mask {
+  top: 496px;
+}
+
+#txt3 {
+  left: 20px;
+  top: 423px;
+  font-size: 44px;
+  line-height: 1;
+  font-family: "SeatBlack";
+  letter-spacing: 0.01em;
+}
+
+#txt3-mask {
+  top: 480px;
+}
+
+#txt4 {
+  left:20px;
+  top: 469px;
+  font-size: 14px;
+  line-height: 1;
+  font-family: "SeatBlack";
+  letter-spacing: 0.005em;
+  font-kerning: none;
+}
+
+#txt4-mask {
+  top: 502px;
+}
+
+#cta {
+  left: 20px;
+  top: 520px;
+  width: 240px;
+  height: 44px;
+  font-size: 16px;
+  background: none;
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  font-family: "SeatBold";
+}
+
+#cta-mask {
+  top: 567px;
+}
+
+#bgExit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 85;
+  background-color: rgba(255,255,255,0);
+  border:1px solid #000000;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.terms #asterisk{
+  top: 2px;
+  position: relative;
+}
